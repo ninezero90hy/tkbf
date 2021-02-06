@@ -17,7 +17,6 @@
     "vue-acl": "^4.1.10",
     "vue-fab": "^2.3.1",
     "vue-fragment": "^1.5.1",
-    "vue-i18n": "^8.17.3",
     "vue-js-modal": "^2.0.0-rc.6",
     "vue-router": "^3.2.0",
     "vue-rx": "^6.2.0",
@@ -36,9 +35,15 @@
     "eslint": "^6.7.2",
     "eslint-plugin-vue": "^6.2.2",
     "expose-loader": "^1.0.0",
-    "vue-cli-plugin-i18n": "~1.0.1",
+    "husky": "^4.3.8",
     "vue-loading-overlay": "^3.4.2",
     "vue-template-compiler": "^2.6.11"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "yarn run lint",
+      "pre-push": "yarn run lint"
+    }
   },
   "eslintConfig": {
     "root": true,
