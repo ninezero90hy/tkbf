@@ -14,7 +14,8 @@ export default {
     HelloWorld
   },
   mounted() {
-    this.$log.debug('Initial App component', 123)
+    this.$log.debug('Initial App component', 123);
+    console.log('Initial App component', 123);
   }
 }
 </script>

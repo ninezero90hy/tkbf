@@ -42,7 +42,8 @@
     "expose-loader": "^1.0.0",
     "husky": "^4.3.8",
     "vue-loading-overlay": "^3.4.2",
-    "vue-template-compiler": "^2.6.11"
+    "vue-template-compiler": "^2.6.11",
+    "babel-plugin-transform-remove-console": "^6.9.4"
   },
   "husky": {
     "hooks": {
