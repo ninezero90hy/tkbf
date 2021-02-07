@@ -12,6 +12,9 @@ export default {
   name: 'App',
   components: {
     HelloWorld
+  },
+  mounted() {
+    this.$log.debug('Initial App component', 123)
   }
 }
 </script>
