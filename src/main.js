@@ -16,7 +16,6 @@ const options = {
 
 Vue.use(VueLogger, options);
 
-
 Vue.config.productionTip = false
 
 new Vue({
